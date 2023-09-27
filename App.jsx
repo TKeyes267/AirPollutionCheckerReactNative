@@ -30,6 +30,9 @@ const App = () => {
             <Text style={styles.textSubHeader}>
               Discover the Air You Breathe
             </Text>
+            <View>
+              <Postcode />
+            </View>
             <Text style={styles.text}>
               Welcome to our air pollution checking app, where you can stay
               informed about the air quality in your area. We believe that
@@ -43,9 +46,6 @@ const App = () => {
             <Text style={styles.textSubHeader}>
               Stay Informed, Stay Healthy!
             </Text>
-          </View>
-          <View>
-            <Postcode />
           </View>
         </ScrollView>
       </SafeAreaView>
@@ -70,17 +70,17 @@ const styles = StyleSheet.create({
   text: {
     color: '#000000',
     fontSize: 20,
-    margin: 20,
+    margin: '10%',
   },
   textHeader: {
     color: '#ffffff',
     fontSize: 40,
-    margin: 10,
+    margin: '10%',
   },
   textSubHeader: {
     color: '#000000',
     fontSize: 30,
-    margin: 20,
+    margin: '10%',
   },
 });
 
